@@ -86,7 +86,7 @@
         "lint-staged": "^15.2.2",
         "ncp": "^2.0.0",
         "node-red": "^3.1.8",
-        "node-red-node-test-helper": "^0.3.3",
+        "node-red-node-test-helper": "^0.3.4",
         "pkg": "^5.8.1",
         "playwright": "^1.42.1",
         "prettier": "^3.2.5",
