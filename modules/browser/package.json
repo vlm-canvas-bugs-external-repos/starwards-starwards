@@ -20,8 +20,8 @@
         "@pangenerator/tweakpane-textarea-plugin": "^1.0.4",
         "@pixi/graphics-extras": "^7.1.2",
         "@tweakpane/core": "^1.1.4",
-        "@tweakpane/plugin-essentials": "^0.1.8",
         "@tweakpane/plugin-camerakit": "^0.2.3",
+        "@tweakpane/plugin-essentials": "^0.1.8",
         "@xstate/react": "^4.1.0",
         "css-element-queries": "^1.2.3",
         "d3": "^7.9.0",
@@ -37,6 +37,8 @@
         "react-dropzone": "^14.2.3",
         "tweakpane": "^3.1.10",
         "tweakpane-table": "^0.3.1",
+        "use-isomorphic-layout-effect": "^1.1.2",
+        "use-sync-external-store": "^1.2.2",
         "webfontloader": "^1.6.28"
     }
 }

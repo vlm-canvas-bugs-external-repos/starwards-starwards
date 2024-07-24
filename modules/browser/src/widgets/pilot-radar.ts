@@ -48,6 +48,7 @@ export function drawPilotRadar(spaceDriver: SpaceDriver, shipDriver: ShipDriver,
     const camera = new Camera();
     const p = { range: isWarpProp.getValue() ? 100_000 : 5_000 };
     const root = new CameraView({ backgroundColor: radarFogOfWar }, camera, container);
+    window.__PIXI_APP__ = root;
     root.view.setAttribute('data-id', 'Pilot Radar');
 
     const overallMask = new Graphics();

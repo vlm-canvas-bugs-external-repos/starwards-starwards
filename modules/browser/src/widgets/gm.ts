@@ -54,6 +54,7 @@ export class GmWidgets {
                     camera.changeZoom(-(e.originalEvent as WheelEvent).deltaY);
                 });
                 const root = new CameraView({ backgroundColor: radarVisibleBg }, camera, container);
+                window.__PIXI_APP__ = root;
                 root.view.setAttribute('data-id', 'GM Radar');
                 root.view.setAttribute('data-zoom', `${camera.zoom}`);
                 root.events.on('screenChanged', () => root.view.setAttribute('data-zoom', `${camera.zoom}`));

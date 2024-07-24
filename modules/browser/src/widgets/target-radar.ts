@@ -44,6 +44,7 @@ export function targetRadarWidget(spaceDriver: SpaceDriver, shipDriver: ShipDriv
             const camera = new Camera();
             camera.bindRange(container, sizeFactor - sizeFactorGrace, p);
             const root = new CameraView({ backgroundColor: radarFogOfWar }, camera, container);
+            window.__PIXI_APP__ = root;
             root.setSquare();
             const rangeFilter = new RadarRangeFilter(
                 spaceDriver,

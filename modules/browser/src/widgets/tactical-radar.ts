@@ -47,6 +47,7 @@ export function drawTacticalRadar(
     const camera = new Camera();
     camera.bindRange(container, sizeFactor - sizeFactorGrace, p);
     const root = new CameraView({ backgroundColor: radarFogOfWar }, camera, container);
+    window.__PIXI_APP__ = root;
     root.view.setAttribute('data-id', 'Tactical Radar');
     root.setSquare();
     const circleMask = new Graphics();
